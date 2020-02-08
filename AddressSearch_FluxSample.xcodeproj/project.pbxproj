@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0B9AEC23EE4AF6004A12D8 /* AddressSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0B9AEB23EE4AF6004A12D8 /* AddressSearchView.xib */; };
+		4F0B9AEE23EE68DC004A12D8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0B9AED23EE68DC004A12D8 /* UIViewExtension.swift */; };
+		4F0B9AF023EE6BC5004A12D8 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0B9AEF23EE6BC5004A12D8 /* Const.swift */; };
+		4F26955823EDAA94009CA114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26955723EDAA94009CA114 /* AppDelegate.swift */; };
+		4F26955C23EDAA94009CA114 /* AddressSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26955B23EDAA94009CA114 /* AddressSearchViewController.swift */; };
+		4F26956123EDAA96009CA114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F26956023EDAA96009CA114 /* Assets.xcassets */; };
+		4F26956423EDAA96009CA114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F26956223EDAA96009CA114 /* LaunchScreen.storyboard */; };
+		4F26956C23EDABF7009CA114 /* AddressSearchAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26956B23EDABF7009CA114 /* AddressSearchAction.swift */; };
+		4F26956E23EDAD92009CA114 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26956D23EDAD92009CA114 /* Action.swift */; };
+		4F26957023EDADC1009CA114 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26956F23EDADC1009CA114 /* Dispatcher.swift */; };
+		4F26957223EDAE02009CA114 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26957123EDAE02009CA114 /* Store.swift */; };
+		4F26957523EDAEFA009CA114 /* AddressSearchActionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26957423EDAEFA009CA114 /* AddressSearchActionCreator.swift */; };
+		4F26957723EDAF0D009CA114 /* AddressSearchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26957623EDAF0D009CA114 /* AddressSearchStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F0B9AEB23EE4AF6004A12D8 /* AddressSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressSearchView.xib; sourceTree = "<group>"; };
+		4F0B9AED23EE68DC004A12D8 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4F0B9AEF23EE6BC5004A12D8 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		4F26955423EDAA94009CA114 /* AddressSearch_FluxSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressSearch_FluxSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F26955723EDAA94009CA114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F26955B23EDAA94009CA114 /* AddressSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchViewController.swift; sourceTree = "<group>"; };
+		4F26956023EDAA96009CA114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F26956323EDAA96009CA114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F26956523EDAA96009CA114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F26956B23EDABF7009CA114 /* AddressSearchAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchAction.swift; sourceTree = "<group>"; };
+		4F26956D23EDAD92009CA114 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		4F26956F23EDADC1009CA114 /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		4F26957123EDAE02009CA114 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		4F26957423EDAEFA009CA114 /* AddressSearchActionCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchActionCreator.swift; sourceTree = "<group>"; };
+		4F26957623EDAF0D009CA114 /* AddressSearchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F26955123EDAA94009CA114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F0B9AF123EE6C02004A12D8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F0B9AED23EE68DC004A12D8 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4F0B9AF223EE6C18004A12D8 /* AddressSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				4F26956B23EDABF7009CA114 /* AddressSearchAction.swift */,
+				4F26957423EDAEFA009CA114 /* AddressSearchActionCreator.swift */,
+				4F26957623EDAF0D009CA114 /* AddressSearchStore.swift */,
+				4F26955B23EDAA94009CA114 /* AddressSearchViewController.swift */,
+				4F0B9AEB23EE4AF6004A12D8 /* AddressSearchView.xib */,
+			);
+			path = AddressSearchView;
+			sourceTree = "<group>";
+		};
+		4F26954B23EDAA94009CA114 = {
+			isa = PBXGroup;
+			children = (
+				4F26955623EDAA94009CA114 /* AddressSearch_FluxSample */,
+				4F26955523EDAA94009CA114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F26955523EDAA94009CA114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F26955423EDAA94009CA114 /* AddressSearch_FluxSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F26955623EDAA94009CA114 /* AddressSearch_FluxSample */ = {
+			isa = PBXGroup;
+			children = (
+				4F26955723EDAA94009CA114 /* AppDelegate.swift */,
+				4F0B9AF223EE6C18004A12D8 /* AddressSearchView */,
+				4F26957323EDAEC9009CA114 /* Common */,
+				4F0B9AF123EE6C02004A12D8 /* Extension */,
+				4F26956023EDAA96009CA114 /* Assets.xcassets */,
+				4F26956223EDAA96009CA114 /* LaunchScreen.storyboard */,
+				4F26956523EDAA96009CA114 /* Info.plist */,
+			);
+			path = AddressSearch_FluxSample;
+			sourceTree = "<group>";
+		};
+		4F26957323EDAEC9009CA114 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4F26956D23EDAD92009CA114 /* Action.swift */,
+				4F26956F23EDADC1009CA114 /* Dispatcher.swift */,
+				4F26957123EDAE02009CA114 /* Store.swift */,
+				4F0B9AEF23EE6BC5004A12D8 /* Const.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F26955323EDAA94009CA114 /* AddressSearch_FluxSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F26956823EDAA96009CA114 /* Build configuration list for PBXNativeTarget "AddressSearch_FluxSample" */;
+			buildPhases = (
+				4F26955023EDAA94009CA114 /* Sources */,
+				4F26955123EDAA94009CA114 /* Frameworks */,
+				4F26955223EDAA94009CA114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressSearch_FluxSample;
+			productName = AddressSearch_FluxSample;
+			productReference = 4F26955423EDAA94009CA114 /* AddressSearch_FluxSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F26954C23EDAA94009CA114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Takaya Shinto";
+				TargetAttributes = {
+					4F26955323EDAA94009CA114 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F26954F23EDAA94009CA114 /* Build configuration list for PBXProject "AddressSearch_FluxSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F26954B23EDAA94009CA114;
+			productRefGroup = 4F26955523EDAA94009CA114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F26955323EDAA94009CA114 /* AddressSearch_FluxSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F26955223EDAA94009CA114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0B9AEC23EE4AF6004A12D8 /* AddressSearchView.xib in Resources */,
+				4F26956423EDAA96009CA114 /* LaunchScreen.storyboard in Resources */,
+				4F26956123EDAA96009CA114 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F26955023EDAA94009CA114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F26957523EDAEFA009CA114 /* AddressSearchActionCreator.swift in Sources */,
+				4F26956C23EDABF7009CA114 /* AddressSearchAction.swift in Sources */,
+				4F26956E23EDAD92009CA114 /* Action.swift in Sources */,
+				4F26955C23EDAA94009CA114 /* AddressSearchViewController.swift in Sources */,
+				4F26957723EDAF0D009CA114 /* AddressSearchStore.swift in Sources */,
+				4F26957223EDAE02009CA114 /* Store.swift in Sources */,
+				4F0B9AEE23EE68DC004A12D8 /* UIViewExtension.swift in Sources */,
+				4F26955823EDAA94009CA114 /* AppDelegate.swift in Sources */,
+				4F26957023EDADC1009CA114 /* Dispatcher.swift in Sources */,
+				4F0B9AF023EE6BC5004A12D8 /* Const.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F26956223EDAA96009CA114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F26956323EDAA96009CA114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F26956623EDAA96009CA114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F26956723EDAA96009CA114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F26956923EDAA96009CA114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AddressSearch_FluxSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintykt.AddressSearch-FluxSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F26956A23EDAA96009CA114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AddressSearch_FluxSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shintykt.AddressSearch-FluxSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F26954F23EDAA94009CA114 /* Build configuration list for PBXProject "AddressSearch_FluxSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F26956623EDAA96009CA114 /* Debug */,
+				4F26956723EDAA96009CA114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F26956823EDAA96009CA114 /* Build configuration list for PBXNativeTarget "AddressSearch_FluxSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F26956923EDAA96009CA114 /* Debug */,
+				4F26956A23EDAA96009CA114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F26954C23EDAA94009CA114 /* Project object */;
+}
